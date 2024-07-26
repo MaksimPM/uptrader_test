@@ -25,9 +25,16 @@ python3 manage.py migrate
 python3 manage.py csu
 ```
 
-• Запустить сервер командой
+• Запустить сервер командой:
 ```shell
 python3 manage.py runserver
+```
+
+<h2 align="left">Для запуска проекта через Docker необходимо:</h2>
+
+• Запустить Docker командой:
+```shell
+docker compose up --build
 ```
 
 <h2 align="left">Логика работы:</h2>
